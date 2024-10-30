@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Hana</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="./assets/anime1.png" alt="Anime character with blonde braids, green eyes, wearing a white dress with blue details">
+        </div>
+        
+        <div class="form-container">
+            <div class="logo-title">
+                <img src="./assets/logo.svg" alt="Hana Logo" class="logo-img">
+                <div class="name-logo">
+                    <img src="./assets/h.svg" alt="h">
+                    <img src="./assets/a.svg" alt="a">
+                    <img src="./assets/n.svg" alt="n">
+                    <img src="./assets/a.svg" alt="a">
+                </div>
+            </div>            
+
+            <form action="">
+                <h4>Access your account</h4>
+                <p>Log in with your access credentials</p>
+
+                <div class="line"></div>
+
+                <div class="input-group">
+                    <label for="username">Email</label>
+                    <div class="input-with-icon">
+                        <img src="./assets/logo-email.svg" alt="Email icon">
+                        <input type="text" id="username" name="username" placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="label-password">
+                        <label for="password">Password</label>
+                        <a href="#">
+                            Forgot my password
+                        </a>
+                    </div>
+                    <div class="input-with-icon">
+                        <img src="./assets/unlock.svg" alt="Unlock icon">
+                        <input type="password" id="password" name="password" placeholder="********">
+                        <img src="./assets/hide.svg" alt="Hide password icon">
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe" class="label-remenberMe">Remember me</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-access">
+                    Access account
+                    <img src="./assets/arrow.svg" alt="Arrow pointing to the right indicating advance">
+                </button>
+
+                <button type="button" class="btn-google">
+                    <img src="./assets/G-google.svg" alt="Google logo G">
+                    Sign in with Google
+                </button>
+
+                <div class="line"></div>
+
+                <p class="signup-text">
+                    Don’t have an account yet?
+                    <a href="#">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>

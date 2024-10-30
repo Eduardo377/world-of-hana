@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eceff1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100vh;
+    object-fit: cover;
+}
+
+.form-container {
+    padding: 10rem 0rem;
+}
+
+.form-container, form {
+    flex: 1;
+    background-color: #fff5E1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 0rem 3rem;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logo-title img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo-img {
+    width: 80px !important;
+}
+
+.name-logo img{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #ffffff;
+    gap: 12px;
+    max-height: 80%;
+
+}
+
+.line {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 500;
+}
+
+.input-group label {
+    line-height: 21px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group a{
+    text-decoration: none;
+    color: #444444;
+}
+.label-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-with-icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #f9f9f9;
+}
+
+.input-with-icon img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input-with-icon input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    background: none;
+}
+
+input {
+    width: 300px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 14px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0.5rem;
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.label-remenberMe {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.btn-access, .btn-google {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-access {
+    background-color: #C80036;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-access img, .btn-google img {
+    margin-left: 10px;
+    width: 16px;
+    font-weight: 500;
+}
+
+.btn-google {
+    background-color: #FFFFFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.signup-text {
+    font-size: 9px;
+    color: #555;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.signup-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
