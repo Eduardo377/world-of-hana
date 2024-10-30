@@ -212,3 +212,55 @@ input {
 .signup-text a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    /* Ajuste o container principal para que os elementos fiquem em coluna */
+    .container {
+        flex-direction: column;
+    }
+
+    /* Ajusta o tamanho da imagem para telas menores */
+    .image-container {
+        height: 100vh;
+    }
+
+    .image-container img {
+        height: 100vh;
+        margin-top: 680px;
+    }
+
+    /* Reduz os espaçamentos internos para telas menores */
+    .form-container {
+        padding: 2rem 1rem;
+    }
+
+    /* Define uma largura máxima para inputs e botões */
+    .input-group input,
+    .btn-access,
+    .btn-google {
+        width: 100%;
+    }
+
+    /* Reduz o espaçamento entre os elementos do formulário */
+    .input-group,
+    .checkbox-group,
+    .logo-title,
+    .signup-text {
+        margin-bottom: 1rem;
+    }
+
+    /* Ajusta o tamanho do texto para caber em telas menores */
+    h1 {
+        font-size: 18px;
+    }
+
+    p,
+    .signup-text {
+        font-size: 14px;
+    }
+
+    .logo-title img {
+        width: 40px;
+        margin-right: 5px;
+    }
+}
